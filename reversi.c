@@ -120,7 +120,7 @@ void _displayEvalBy(char id) {
 }
 
 void displayBoard(void) {
-    printf("\e[1;1\e[2J")
+    printf("\e[1;1\e[2J");
     printf("\n  0 1 2 3 4 5\n");
     for (char i = 0; i < SIZE; i++) {
         printf("%d ", i);
